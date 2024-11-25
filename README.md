@@ -4,24 +4,8 @@ A demo to use gaussian splatting for the garrulus forest databse
 
 ![Alt text](./img/garrulus.png "Gaussian Splatting in CesiumJS")
 
-## Run
-
-```sh
-npm install
-npm run dev
-```
-
-## Info
-
-This repo is adapted from Tebben's work [Link](https://github.com/tebben/cesium-gaussian-splatting)
-
-The demo uses one splat created using splatfacto which was cleaned up a bit using [supersplat](https://github.com/playcanvas/supersplat)
-
-To be able to show Three.js scenes within CesiumJS we need to render the Three stuff on top of Cesium and sync the Cesium camera to Three, this is not ideal because things are not aware of eachother and Three scenes can be seen trough the terrain and other objects placed in CesiumJS such as buildings.
 
 
-
-# garrulus-gaussian-splatting
 
 ## Description
 
@@ -95,3 +79,10 @@ docker rm garrulus-cesium-splat-container
 
 
 
+## Info
+
+This repo is adapted from Tebben's work [Link](https://github.com/tebben/cesium-gaussian-splatting)
+
+The demo uses one splat created using splatfacto which was cleaned up a bit using [supersplat](https://github.com/playcanvas/supersplat)
+
+To be able to show Three.js scenes within CesiumJS we need to render the Three stuff on top of Cesium and sync the Cesium camera to Three, this is not ideal because things are not aware of eachother and Three scenes can be seen trough the terrain and other objects placed in CesiumJS such as buildings.
