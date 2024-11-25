@@ -4,7 +4,8 @@ import cesium from 'vite-plugin-cesium';
 export default defineConfig({
   plugins: [cesium()],
   server: {
+    host: "0.0.0.0",
     port: 3001,
   },
-  base: '/cesium-gaussian-splatting/',
+  base: '/garrulus-gaussian-splatting/',
 });
